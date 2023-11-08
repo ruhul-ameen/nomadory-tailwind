@@ -8,8 +8,8 @@ const ContactProject = () => {
   return (
     <div className="bg-[#F9EFEE] font-libre relative">
       <div className="bg-bg-menu-tr h-[166px] w-[320px] md:h-[278px] md:w-[548px] absolute right-0 top-0 bg-no-repeat"></div>
-      <div className="md:px-[215px] px-[16px] md:pt-[112px] pt-[66px] md:pb-[160px] pb-[80px] flex flex-col md:flex-row md:items-center md:justify-center md:gap-[346px]">
-        <div>
+      <div className="md:px-[50px] xl:px-[215px] px-[16px] md:pt-[112px] pt-[66px] md:pb-[160px] pb-[80px] flex flex-col md:flex-row md:items-center md:justify-center md:gap-[100px] xl:gap-[346px]">
+        <div className="w-1/2">
           <div className="mb-16 md:mb-[98px]">
             <h1 className="text-[50px] md:text-[80px] font-bold leading-[56px] md:leading-[94px] mb-6">
               Start your project
@@ -18,7 +18,7 @@ const ContactProject = () => {
               Our team of experts will reach out within 1-2 business days.
             </p>
           </div>
-          <div className="">
+          <div>
             <Image
               src={inbox}
               alt="inbox"
@@ -34,7 +34,8 @@ const ContactProject = () => {
             </div>
           </div>
         </div>
-        <div>
+
+        <div className="w-1/2">
           <div className="mb-10 md:mb-16">
             <Image
               src={message}

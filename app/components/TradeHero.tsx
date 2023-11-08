@@ -7,7 +7,7 @@ import TradeWork from "./TradeWork";
 const TradeHero = () => {
   return (
     <div>
-      <div className="w-full h-[608px] flex flex-col md:relative">
+      <div className="w-full h-[608px] flex flex-col relative">
         <div className="w-[328px] md:absolute md:bg-[#FDF9F7] md:w-[600px] h-[342px] top-20 md:z-10">
           <h1 className="font-libre text-[50px] md:text-[80px] leading-[56px] md:leading-[96px] font-bold my-8">
             For trade

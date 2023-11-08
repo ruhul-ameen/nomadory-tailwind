@@ -15,12 +15,12 @@ import dot from "@/public/image/trade/dot.png";
 const TradeWork = () => {
   return (
     <div>
-      <div>
+      <div className="h-auto">
         <h1 className="text-[46px] font-bold leading-[54px] mb-6">Our work</h1>
         <p className="text-[#3F3F3F] text-xl font-normal leading-8 mb-10">
           Get inspired by the custom projects we have worked on
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-6 md:gap-[20px] mb-[113px]">
+        <div className="grid sm:justify-items-center grid-cols-1 md:grid-cols-3 md:grid-rows-6 md:gap-[20px] md:mb-[113px]">
           <div className="md:col-span-2 md:row-span-2">
             <Image
               src={image1}
@@ -186,7 +186,7 @@ const TradeWork = () => {
             </div>
           </div>
         </div>
-        <div className="bg-bg-trade-work h-[166px] w-[266px] md:h-[62px] md:w-[266px] md:absolute left-0 bottom-0 bg-no-repeat"></div>
+        <div className="bg-bg-trade-work h-[47px] w-[200px] md:h-[62px] md:w-[266px] absolute left-0 bottom-0 bg-no-repeat"></div>
       </div>
     </div>
   );

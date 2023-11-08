@@ -18,7 +18,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className="px-4 md:px-[215px] py-6 bg-[#F9EFEE] font-libre">
+      <header className="px-4 md:px-[50px] xl:px-[215px] py-6 bg-[#F9EFEE] font-libre">
         <div className="flex justify-between items-center">
           <Image
             src={nomadory}
