@@ -1,9 +1,12 @@
-import Menu from "./components/Menu";
+import Navbar from "./components/NavBar";
+import Trade from "./components/trade/page";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
-    <main>
-      <Menu />
-    </main>
+    <div>
+      <Contact />
+      <Trade />
+    </div>
   );
 }
