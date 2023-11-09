@@ -4,10 +4,10 @@ import ContactProjectView from "../components/ContactProjectView";
 
 const Contact = () => {
   return (
-    <>
+    <div>
       <ContactProject />
       <ContactProjectView />
-    </>
+    </div>
   );
 };
 

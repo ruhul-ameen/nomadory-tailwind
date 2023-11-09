@@ -17,7 +17,7 @@ const TradeCustomize = () => {
           Studio designs and concepts, or collaborate with us to create a
           completely new concept. Limitless possibilities, at affordable prices.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-y-8 sm:gap-x-[15px] md:gap-x-[30px]">
+        <div className="flex flex-col sm:flex-row justify-center items-center sm:items-stretch gap-y-8 sm:gap-x-[15px] md:gap-x-[30px]">
           <div className="w-[328px] md:w-[570px] p-8 border-[#CD7E74] border h-auto">
             <div>
               <Image src={scaling} alt="scaling" width={60} height={60} />

@@ -1,5 +1,7 @@
 import React from "react";
 import TradeHero from "../TradeHero";
+import TradeCustomize from "../TradeCustomize";
+import TradeWork from "../TradeWork";
 
 const Trade = () => {
   return (
@@ -7,6 +9,8 @@ const Trade = () => {
       <div className="bg-bg-menu-tr h-[300px] w-[400px] md:h-[278px] md:w-[548px] absolute right-0 top-0 bg-no-repeat"></div>
       <div>
         <TradeHero />
+        <TradeCustomize />
+        <TradeWork />
       </div>
     </div>
   );

@@ -37,6 +37,7 @@ const config: Config = {
         "bg-menu-bl": "url('../public/image/bg-menu-bl.png')",
         "bg-pattern": "url('../public/image/contact/pattern.png')",
         "bg-trade-work": "url('../public/image/trade/bg-trade-work.png')",
+        "bg-hover": "url('../public/image/trade/bg-hover.png')",
       },
     },
   },

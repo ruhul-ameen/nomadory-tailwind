@@ -10,7 +10,7 @@ import rectangle76 from "@/public/image/contact/rectangle-76.png";
 const ContactProjectView = () => {
   return (
     <div className="bg-[#F5C266] lg:bg-bg-pattern bg-no-repeat bg-center lg:h-[921px] lg:relative">
-      <div className="px-4 nd:px-[100px] lg:px-[215px] py-20 md:py-24 lg:py-[128px] font-libre">
+      <div className="px-4 md:px-[100px] lg:px-[215px] py-20 md:py-24 lg:py-[128px] font-libre">
         <h4 className="text-[32px] font-bold leading-9 mb-[49px]">Instagram</h4>
         <div>
           <div className="grid grid-cols-2 gap-x-4 gap-y-6 justify-items-center">
