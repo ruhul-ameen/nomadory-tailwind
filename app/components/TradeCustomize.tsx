@@ -25,7 +25,7 @@ const TradeCustomize = () => {
             <h2 className="text-[28px] md:text-[34px] leading-[40px] font-bold mt-6 mb-4">
               Customize a nomadory design
             </h2>
-            <h6 className="font-semibold leading-6 mb-6">6-8 WEEKS</h6>
+            <p className="font-semibold leading-6 mb-6 text-week">6-8 WEEKS</p>
             <div>
               <div className="w-full flex gap-x-3 items-center mb-4">
                 <Image
@@ -63,7 +63,7 @@ const TradeCustomize = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center mt-auto">
-                <button className="bg-[#C05E51] w-full border-none p-4 text-white font-semibold">
+                <button className="btn-text bg-[#C05E51] w-full border-none p-4 text-white font-semibold">
                   Browse collection
                 </button>
               </div>
@@ -77,7 +77,7 @@ const TradeCustomize = () => {
             <h2 className="text-[28px] md:text-[34px] leading-[40px] font-bold mt-6 mb-4">
               Create a new design
             </h2>
-            <h6 className="font-semibold leading-6 mb-6">6-15 WEEKS</h6>
+            <p className="font-semibold leading-6 mb-6 text-week">6-15 WEEKS</p>
             <div>
               <div className="w-full flex gap-x-3 items-center mb-4">
                 <Image
@@ -113,7 +113,7 @@ const TradeCustomize = () => {
                 </p>
               </div>
               <div className="flex justify-center items-center mt-auto">
-                <button className="bg-[#014F52] w-full border-none p-4 text-white font-semibold">
+                <button className="btn-text bg-[#014F52] w-full border-none p-4 text-white font-semibold">
                   Customize a rug
                 </button>
               </div>

@@ -19,12 +19,12 @@ const Footer = () => {
         </div>
         <div className="flex justify-between sm:gap-x-20 md:gap-x-28 xl:gap-x-[165px]">
           <div>
-            <h4 className="font-semibold leading-[24px] mb-8">LEGAL</h4>
+            <p className="font-semibold leading-[24px] mb-8">LEGAL</p>
             <p className="font-normal leading-[24px] mb-4">Terms & services</p>
             <p className="font-normal leading-[24px] mb-4">Privacy policy</p>
           </div>
           <div>
-            <h4 className="font-semibold leading-[24px] mb-8">LEGAL</h4>
+            <p className="font-semibold leading-[24px] mb-8">LEGAL</p>
             <p className="font-normal leading-[24px] mb-4">Terms & services</p>
             <p className="font-normal leading-[24px] mb-4">Privacy policy</p>
           </div>

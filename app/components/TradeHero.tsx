@@ -14,7 +14,7 @@ const TradeHero = () => {
             We partner with the A&D industry for bespoke, ethical and
             sustainable handmade rugs.
           </p>
-          <button className="w-full md:w-[270px] p-4 bg-[#C05E51] font-semibold text-[#FCFCFC] mb-8">
+          <button className="btn-text w-full md:w-[270px] p-4 bg-[#C05E51] font-semibold text-[#FCFCFC] mb-8">
             Start your project
           </button>
         </div>
