@@ -1,7 +1,7 @@
 import React from "react";
-import TradeHero from "../TradeHero";
-import TradeCustomize from "../TradeCustomize";
-import TradeWork from "../TradeWork";
+import TradeHero from "../components/TradeHero";
+import TradeCustomize from "../components/TradeCustomize";
+import TradeWork from "../components/TradeWork";
 
 const Trade = () => {
   return (
